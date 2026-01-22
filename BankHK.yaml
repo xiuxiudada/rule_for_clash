@@ -3,30 +3,39 @@ payload:
    # -----------------------------------------------
    # [银行]：香港银行   [Default : HK ]
    # -----------------------------------------------
+   
+    - '+.hsbc.com.hk'                        
+    - 'hk.hsbc.com'                             
+    - '+.hk.hsbc.com'                        
+    - '+.vam-hk.*.vv1865.com'                
+    - 'mobile.eum-appdynamics.com'         
+    - 'accdn.lpsnmedia.net'                
+    - 'collect-ap-east-1.tealiumiq.com'  
 
-    - DOMAIN-SUFFIX  , hsbc.com.hk               
-    - DOMAIN         , hk.hsbc.com               
-    - DOMAIN-SUFFIX  , .hk.hsbc.com              
-    - DOMAIN-SUFFIX  , vam-hk.cloud1.vv1865.com  
+    - '+.sc.com.hk'                      
+    - '+.sc.com'                           
+    - '+.standchartbank.*.*.*'                
+    - '+.standchartbank.*.*'                
+   #- '+.omtrdc.net'                     
+    - 'yvn1g4-cdn-settings.appsflyersdk.com'  
+    - 'yvn1g4-launches.appsflyersdk.com'    
+    
 
-    - DOMAIN-SUFFIX  , bochk.com                
-    - DOMAIN-SUFFIX  , ocbcwhhk.com             
-    - DOMAIN-SUFFIX  , hangseng.com             
-    - DOMAIN-SUFFIX  , cmbwinglungbank.com     
+    - '+.bochk.com'                       
+    - '+.ocbcwhhk.com'                     
+    - '+.hangseng.com'                     
+    - '+.cmbwinglungbank.com'            
     
-   #- DOMAIN-SUFFIX  ,                           #       
-    
-    - DOMAIN-SUFFIX  , cncbinternational.com    
-    - DOMAIN-SUFFIX  , citibank.com.hk          
-    - DOMAIN-SUFFIX  , dbs.com.hk            
-    - DOMAIN-SUFFIX  , ncb.com.hk            
+    - '+.cncbinternational.com'            
+    - '+.citibank.com.hk'                  
+    - '+.dbs.com.hk'                      
+    - '+.ncb.com.hk'                       
 
-    - DOMAIN-SUFFIX  , sc.com.hk             
-    - DOMAIN-SUFFIX  , sc.com              
+   #- '+.                                              
     
-   #- DOMAIN-SUFFIX  ,                           #       
+    - '+.za.group'                         
+    - '+.cdn.zaticdn.com'               
     
-    - DOMAIN-SUFFIX  , za.group             
-    - DOMAIN-SUFFIX  , cdn.zaticdn.com       
-    
-   #- DOMAIN-SUFFIX  ,                           #    
+   #- '+.                                           
+        
+ 
