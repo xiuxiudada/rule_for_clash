@@ -1,38 +1,34 @@
 payload:
-    - 'hsbc.com.hk'                      
-    - 'hk.hsbc.com'                         
-    - 'hk.hsbc.com'                       
-    - 'vam-hk.*.vv1865.com'                 
-    - 'mobile.eum-appdynamics.com'            
-    - 'accdn.lpsnmedia.net'                  
-    - 'collect-ap-east-1.tealiumiq.com'       
 
-    - 'sc.com.hk'                          
-    - 'sc.com'                        
-    - 'standchartbank.*.*.*'            
-    - 'standchartbank.*.*'                
-   #- '+.omtrdc.net'                          
-    - 'yvn1g4-cdn-settings.appsflyersdk.com'    
-    - 'yvn1g4-launches.appsflyersdk.com'      
-    
+   # -----------------------------------------------
+   # [银行]：香港银行   [Default : HK ]
+   # -----------------------------------------------
 
-    - 'bochk.com'                      
-    - 'ocbcwhhk.com'                       
-    - 'hangseng.com'                     
-    - 'cmbwinglungbank.com'              
-    
-    - 'cncbinternational.com'            
-    - 'citibank.com.hk'                 
-    - 'dbs.com.hk'                        
-    - 'ncb.com.hk'                         
+    - DOMAIN-SUFFIX  , hsbc.com.hk               # 汇丰香港
+    - DOMAIN         , hk.hsbc.com               # 汇丰香港
+    - DOMAIN-SUFFIX  , .hk.hsbc.com              # 汇丰香港
+    - DOMAIN-SUFFIX  , vam-hk.cloud1.vv1865.com  # 汇丰香港
 
-   #- '+.                                              
+    - DOMAIN-SUFFIX  , bochk.com                 # 中银香港
+    - DOMAIN-SUFFIX  , ocbcwhhk.com              # 华侨永亨
+    - DOMAIN-SUFFIX  , hangseng.com              # 恒生银行
+    - DOMAIN-SUFFIX  , cmbwinglungbank.com       # 招商永隆
     
-    - 'za.group'                          
-    - 'cdn.zaticdn.com'                 
+   #- DOMAIN-SUFFIX  ,                           #       
     
-   #- '+.                                           
+    - DOMAIN-SUFFIX  , cncbinternational.com     # 中信国际
+    - DOMAIN-SUFFIX  , citibank.com.hk           # 花旗香港
+    - DOMAIN-SUFFIX  , dbs.com.hk                # 星展香港
+    - DOMAIN-SUFFIX  , ncb.com.hk                # 南洋银行
+
+    - DOMAIN-SUFFIX  , sc.com.hk                 # 渣打香港
+    - DOMAIN-SUFFIX  , sc.com                    # 渣打香港
+    
+   #- DOMAIN-SUFFIX  ,                           #       
+    
+    - DOMAIN-SUFFIX  , za.group                  # 众安银行
+    - DOMAIN-SUFFIX  , cdn.zaticdn.com           # 众安银行
+    
+   #- DOMAIN-SUFFIX  ,                           #    
         
  
-
-
